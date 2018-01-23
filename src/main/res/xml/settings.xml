@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditTextPreference
+        android:key="serverAddress"
+        android:title="Server Address"
+        android:defaultValue="192.168.1.1"
+        android:summary="The IP address of the server connected to Arduino via USB"
+        />
+
+</PreferenceScreen>
